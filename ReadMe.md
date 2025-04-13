@@ -1,7 +1,7 @@
 
 <h1 align='center'> <img width=32 src='icon.png'> Asian Face Detector</h1>
 <p align='center'>
-    <img src='screen1.png'><br>
+    <img src='screen1.png'> <img src='screen2.png'><br>
     A Simple Python-based App to check if you have Asian features or not
 </p>
 
