@@ -19,10 +19,10 @@ class CollapsibleBox(QWidget):
         self.toggle_button.clicked.connect(self.on_toggle)
 
         self.content_area = QWidget()
-        self.content_area.setVisible(False)  # Initially collapsed
+        self.content_area.setVisible(False) 
 
         self.content_layout = QVBoxLayout(self.content_area)
-        self.content_layout.setContentsMargins(20, 5, 5, 5)  # Optional indent
+        self.content_layout.setContentsMargins(20, 5, 5, 5)  
 
         layout = QVBoxLayout(self)
         layout.setContentsMargins(0, 0, 0, 0)
@@ -43,8 +43,8 @@ class FaceDetectorApp(QWidget):
         self.setWindowTitle("Asian Face Detector")
         self.setWindowIcon(QIcon('icon.png'))
 
-        self.data = QLabel("Bruh this Nigga looks like Bangladeshi")
-        self.extra_data = QLabel("This is some hidden info.")
+        self.data = QLabel("")
+        self.extra_data = QLabel("")
         self.image_label = QLabel("Load an image to detect faces")
         self.data.setAlignment(Qt.AlignHCenter)
         self.image_label.setAlignment(Qt.AlignCenter)
