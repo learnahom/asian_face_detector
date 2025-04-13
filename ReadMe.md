@@ -1,13 +1,14 @@
 
 <h1 align='center'> <img width=32 src='icon.png'> Asian Face Detector</h1>
 <p align='center'>
-    <img src='screen1.png'> <img src='screen2.png'><br>
+    <img src='screen1.png'><br>
     A Simple Python-based App to check if you have Asian features or not
 </p>
 
 ## Synopsis
 
-Enter an image to scan and the AI can tell how much Asian features (or other racial features you have). Perfect to call out some non-ahoms calling themselves Ahom without having even 1% Asian DNA
+Enter an image to scan and the AI can tell how much Asian features (or other racial features you have). Perfect to call out some non-ahoms calling themselves Ahom without having even 1% Asian DNA<br>
+<img src='screen2.png'><br>
 
 ## Installation
 
